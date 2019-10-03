@@ -19,7 +19,7 @@ public class IfElseStudentInfo_4 {
         int roll = 1;
         String stdName = "Uzzal";*/
 
-        if ((d<5.00) && (roll<=1) && (stdName.equals("Uzzal"))){
+        if ((d<=5.00) && (roll<=1) && (stdName.equals("Uzzal"))){
 
             System.out.println("This is Examinne History:- "+"Point:  "+d+", " +"Roll: "+" "+roll+", "+"Student Name: "+stdName);
         }else{
